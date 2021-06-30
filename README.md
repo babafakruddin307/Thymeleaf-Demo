@@ -16,9 +16,11 @@ src/main/resource-
 
 ${}  it will take data from controller
 
-Th:Object{} :$() :-we can associate with model object.
-Th:field="*()": we declare which field we have to bind from object.
-@ModelAttribute :Spring MVC will take the information from incoming request from html form.This annotation create automatic for us.
+Th:Object{} :$() :-we can associate with model objects.
+Th:field="*()": we declare which field we have to bind from the object.
+@ModelAttribute :Spring MVC will take the information from incoming requests from html form.This annotation creates automatic for us.
 
 Th:action=@{/}: we map url to the controller.
+
+
 
